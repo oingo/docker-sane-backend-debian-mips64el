@@ -8,16 +8,16 @@
 ### Build
 
 ```
-$ docker build --rm -t "oingo/docker-sane-backend-debian-mips64el" .
+$ docker build --rm -t "oingo/sane-backend-debian-mips64el" .
 ```
 
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download : `docker pull oingo/docker-sane-backend-debian-mips64el`
+2. Download : `docker pull oingo/sane-backend-debian-mips64el`
 
 
 ### Usage
 
-    docker run -it -v <sane-backend-volume>:/root/project oingo/docker-sane-backend-debian-mips64el /bin/bash
+    docker run -it -v <sane-backend-volume>:/root/project oingo/sane-backend-debian-mips64el /bin/bash
